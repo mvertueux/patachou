@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patachou</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- GOOGLE FONT -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- GOOGLE FONT -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <img class="header__logo" src="img/logo.svg" alt="logo">
+        <nav class="menu">
+            <ul class="menu__liste">
+                <span class="menu__span">
+                    <li class="menu__item"><a class="menu__link" href="#">accueil</a></li>
+                </span>
+                <li class="menu__item"><a class="menu__link" href="#">notre savoir-faire</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">nos pâtisseries</a></li>
+                <li class="menu__item"><a class="menu__link" href="#">contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1 class="hero__title">Pâtisseries <br>Haute Couture</h1>
+        </section>
+
+        <section class="intro">
+            <article class="intro__quote-container">
+                <h2 class="intro__quote">“De toutes les passions, la seule vraiment respectable me parait être la
+                    gourmandise.”
+                </h2>
+                <p class="intro__author"> Guy de Maupassant</p>
+            </article>
+            <p class="intro__description">Nos délicieux gâteaux sont confectionnés avec soin de manière artisanale, en
+                utilisant des ingrédients bruts issus de l'agriculture biologique, tout en respectant rigoureusement les
+                saisons. Sans conservateurs, sans colorants ni d'arômes artificiels, nos créations mettent en avant la
+                pureté des saveurs.</p>
+        </section>
+
+        <section class="products">
+            <h2 class="products__title">Nos pâtisseries Signature</h2>
+
+            <div class="card__container">
+                <article class="card card--irresistible">
+                    <img class="card__image" src="img/irresistible.jpg" alt="irresistible">
+                    <h3 class="card__title">L'irrésistible</h3>
+                    <p class="card__description">Le chou doré, légèrement croustillant, est garni d'une crème onctueuse
+                        à la
+                        pistache, dévoilant des saveurs subtiles et raffinées. Saupoudrée de pistaches concassées, la
+                        pâtisserie
+                        est sublimée par un équilibre parfait entre douceur fondante et touche croquante.</p>
+                </article>
+
+                <article class="card card--delicat">
+
+                    <img class="card__image" src="img/delicat.jpg" alt="delicat">
+                    <h3 class="card__title">Le délicat</h3>
+                    <p class="card__description">La pâte feuilletée légère et dorée est imprégnée d'une délicate crème
+                        parfumée
+                        à la rose, laissant s'épanouir des arômes floraux subtils et envoûtants. Saupoudrée de pétales
+                        de
+                        rose,
+                        la pâtisserie est magnifiée par un équilibre entre douceur fondante et fraîcheur florale.</p>
+                </article>
+
+                <article class="card card--impetueux">
+
+                    <img class="card__image" src="img/impetueux.jpg" alt="irresistible">
+                    <h3 class="card__title">L'impétueux</h3>
+                    <p class="card__description">La pâte moelleuse est enrobée d'une ganache intense au chocolat noir,
+                        révélant
+                        des notes profondes et corsées à chaque bouchée. Sublimé par une fine couche de cacao amer, le
+                        dessert
+                        est magnifié par un contraste parfait entre l'onctuosité du chocolat et une légère amertume.</p>
+                </article>
+            </div>
+
+            <button class="products__button"><a class="products__link" href="#">Découvrir toutes nos délicieuses
+                    pâtisseries</a></button>
+
+        </section>
+
+        <section class="extras">
+
+            <div class="extras__container">
+                <img class="history__image" src="img/poche-douille_histoire-patachou.png"
+                    alt="poche-douille_histoire-patachou">
+
+                <article class="extras__history history">
+
+                    <div class="history__header">
+                        <h2 class="history__title"><span class="history__quote-symbol">“</span>Patachou, toute une
+                            histoire...
+                        </h2>
+                    </div>
+                    <p class="history__description">Une petite pâtisserie familiale, fondée il y a plusieurs décennies,
+                        se
+                        transmet de génération en
+                        génération, préservant l'artisanat traditionnel et les recettes secrètes. Connue pour ses
+                        créations
+                        uniques et raffinées, elle devient au fil du temps un lieu incontournable pour les amateurs de
+                        douceurs.
+                        Malgré les défis modernes, la passion et le savoir-faire continuent de faire vivre cette
+                        enseigne,
+                        où
+                        chaque pâtisserie raconte une histoire d'amour du métier</p>
+                    <button class="history__button"><a class="history__link" href="#">Notre histoire</a></button>
+                </article>
+            </div>
+
+            <hr class="separator">
+
+            <article class="extras__form form">
+
+                <section class="form__intro">
+                    <h3 class="form__title">Des gâteaux <br>pour votre événement ?</h3>
+                    <p class="form__text">Pour vos événements exclusifs - anniversaire, séminaire d'entreprise ou
+                        réception
+                        privée - offrez à vos
+                        invités une sélection raffinée de pâtisseries, biscuits, mignardises et tartes, soigneusement
+                        élaborés
+                        pour sublimer chaque moment !</p>
+                </section>
+
+                <section class="form__content">
+                    <form class="form__container" action="" target="" method="get">
+                        <ul class="form__list">
+                            <li class="form__item">
+                                <label class="form__label" for="fullname">Votre nom prénom</label> <br>
+                                <input class="form__input form__input__name" type="text" id="fullname" placeholder="">
+
+                                <input class="form__input form__input__name" type="text" id="fullname" placeholder="">
+                            </li>
+                            <li class="form__item">
+                                <label class="form__label" for="email">Votre email</label> <br>
+                                <input class="form__input form__input__mail" type="email" id="email" placeholder="">
+
+                            </li>
+
+                            <li class="form__item">
+                                <label class="form__label" for="message">Votre message</label> <br>
+                                <textarea class="form__textarea" rows="4" cols="21" id="message"
+                                    placeholder=""></textarea>
+                            </li>
+
+                            <li class="form__item form__item--checkbox">
+                                <input class="form__input form__input--checkbox" type="checkbox" id="box"
+                                    name="conditions" />
+                                <label class="form__label" for="box">J'ai lu et j'accepte la politique de
+                                    confidentialité</label>
+                            </li>
+                            <li class="form__item">
+                                <input class="form__submit" type="submit" value="Envoyer">
+                            </li>
+                        </ul>
+                    </form>
+                </section>
+
+            </article>
+
+        </section>
+
+        <section class="location">
+
+            <div class="location__info">
+                <h2 class="location__title">Notre atelier et notre boutique</h2>
+                <p class="location__address">14 Boulevard Yvonne Poirel <br>49000 ANGERS</p>
+            </div>
+
+            <iframe class="location__map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5394.947940096745!2d-0.5667659079937644!3d47.46119252369737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480878ba132ff4e7%3A0xc11116e4d0e11bae!2s14%20Bd%20Yvonne%20Poirel%2C%2049000%20Angers!5e0!3m2!1sfr!2sfr!4v1747036242441!5m2!1sfr!2sfr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+        <footer class="footer">
+
+            <div class="footer__container">
+
+                <img class="footer__logo" src="img/logo-white.svg" alt="logo">
+
+                <nav class="footer__menu">
+                    <ul class="footer__list">
+                        <span class="footer__span">
+                            <li class="footer__item"><a class="footer__link" href="#">Accueil</a></li>
+                        </span>
+                        <li class="footer__item"><a class="footer__link" href="#">Notre savoir-faire</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Nos pâtisseries</a></li>
+                        <li class="footer__item"><a class="footer__link" href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <article class="footer__contact">
+                    <div class="footer__info">
+                        <p class="footer__info-phone">02 40 50 40 50</p>
+
+                        <p class="footer__info-address">14 Bd Yvonne Poirel <br>490000 ANGERS</p>
+                    </div>
+                </article>
+
+                <div class="footer__hours">
+                    <p class="footer__hours-title">HORAIRES D'OUVERTURES</p>
+                    <p class="footer__hours-days">Mardi au vendredi : 11h - 19h <br>
+                        Samedi : 10h30 - 19h</p>
+                </div>
+
+
+
+                <article class="footer__socials">
+                    <p class="footer__socials-title">Suivez-nous</p>
+                    <i class="footer__icon fa-brands fa-facebook fa-lg"></i>
+                    <i class="footer__icon fa-brands fa-instagram fa-lg"></i>
+                </article>
+            </div>
+
+            <article class="footer__legal">
+                <p class="footer__legal-mentions">Mentions légales</p>
+                <p class="footer__legal-privacy">Politique de confidentialité</p>
+            </article>
+
+        </footer>
+
+    </main>
+
+
+
+</body>
+
+</html>
