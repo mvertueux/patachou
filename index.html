@@ -28,6 +28,7 @@
     <header class="header">
 
         <img class="header__logo" src="img/logo.svg" alt="logo">
+
         <nav class="menu">
             <ul class="menu__liste">
                 <span class="menu__span">
@@ -44,26 +45,33 @@
     <main>
 
         <section class="hero">
+
             <h1 class="hero__title">Pâtisseries <br>Haute Couture</h1>
         </section>
 
+
         <section class="intro">
+
             <article class="intro__quote-container">
                 <h2 class="intro__quote">“De toutes les passions, la seule vraiment respectable me parait être la
                     gourmandise.”
                 </h2>
                 <p class="intro__author"> Guy de Maupassant</p>
             </article>
+
             <p class="intro__description">Nos délicieux gâteaux sont confectionnés avec soin de manière artisanale, en
                 utilisant des ingrédients bruts issus de l'agriculture biologique, tout en respectant rigoureusement les
                 saisons. Sans conservateurs, sans colorants ni d'arômes artificiels, nos créations mettent en avant la
                 pureté des saveurs.</p>
+
         </section>
 
         <section class="products">
+
             <h2 class="products__title">Nos pâtisseries Signature</h2>
 
             <div class="card__container">
+
                 <article class="card card--irresistible">
                     <img class="card__image" src="img/irresistible.jpg" alt="irresistible">
                     <h3 class="card__title">L'irrésistible</h3>
@@ -75,7 +83,6 @@
                 </article>
 
                 <article class="card card--delicat">
-
                     <img class="card__image" src="img/delicat.jpg" alt="delicat">
                     <h3 class="card__title">Le délicat</h3>
                     <p class="card__description">La pâte feuilletée légère et dorée est imprégnée d'une délicate crème
@@ -87,7 +94,6 @@
                 </article>
 
                 <article class="card card--impetueux">
-
                     <img class="card__image" src="img/impetueux.jpg" alt="irresistible">
                     <h3 class="card__title">L'impétueux</h3>
                     <p class="card__description">La pâte moelleuse est enrobée d'une ganache intense au chocolat noir,
@@ -96,6 +102,7 @@
                         dessert
                         est magnifié par un contraste parfait entre l'onctuosité du chocolat et une légère amertume.</p>
                 </article>
+
             </div>
 
             <button class="products__button"><a class="products__link" href="#">Découvrir toutes nos délicieuses
@@ -106,6 +113,7 @@
         <section class="extras">
 
             <div class="extras__container">
+
                 <img class="history__image" src="img/poche-douille_histoire-patachou.png"
                     alt="poche-douille_histoire-patachou">
 
@@ -129,6 +137,7 @@
                         chaque pâtisserie raconte une histoire d'amour du métier</p>
                     <button class="history__button"><a class="history__link" href="#">Notre histoire</a></button>
                 </article>
+
             </div>
 
             <hr class="separator">
@@ -146,37 +155,46 @@
                 </section>
 
                 <section class="form__content">
+
                     <form class="form__container" action="" target="" method="get">
-                        <ul class="form__list">
-                            <li class="form__item">
-                                <label class="form__label" for="fullname">Votre nom prénom</label> <br>
-                                <input class="form__input form__input__name" type="text" id="fullname" placeholder="">
 
-                                <input class="form__input form__input__name" type="text" id="fullname" placeholder="">
-                            </li>
-                            <li class="form__item">
-                                <label class="form__label" for="email">Votre email</label> <br>
-                                <input class="form__input form__input__mail" type="email" id="email" placeholder="">
+                        <label class="form__label" for="firstname">Votre nom prénom</label>
 
-                            </li>
+                        <article class="form__container__name">
 
-                            <li class="form__item">
-                                <label class="form__label" for="message">Votre message</label> <br>
-                                <textarea class="form__textarea" rows="4" cols="21" id="message"
-                                    placeholder=""></textarea>
-                            </li>
+                            <div class="form__name">
+                                <input class="form__input form__input__name" type="text" id="firstname" placeholder="">
+                                <span class="form_span">Prénom</span>
+                            </div>
 
-                            <li class="form__item form__item--checkbox">
-                                <input class="form__input form__input--checkbox" type="checkbox" id="box"
-                                    name="conditions" />
-                                <label class="form__label" for="box">J'ai lu et j'accepte la politique de
-                                    confidentialité</label>
-                            </li>
-                            <li class="form__item">
-                                <input class="form__submit" type="submit" value="Envoyer">
-                            </li>
-                        </ul>
+                            <div class="form__name">
+                                <input class="form__input form__input__name" type="text" id="lastname" placeholder="">
+                                <span class="form_span">Nom</span>
+                            </div>
+
+                        </article>
+
+                        <article class="form__container__mail">
+                            <label class="form__label" for="email">Votre email</label>
+                            <input class="form__input form__input__mail" type="email" id="email" placeholder="">
+                        </article>
+
+                        <article class="form__container__message">
+                            <label class="form__label" for="message">Votre message</label>
+                            <textarea class="form__textarea" rows="4" cols="21" id="message" placeholder=""></textarea>
+                        </article>
+
+                        <div class="form_container__checkbox">
+                            <input class="form__input form__input--checkbox" type="checkbox" id="box"
+                                name="conditions" />
+                            <label class="form__label" for="box">J'ai lu et j'accepte la politique de
+                                confidentialité</label>
+                        </div>
+
+                        <input class="form__submit" type="submit" value="Envoyer">
+
                     </form>
+
                 </section>
 
             </article>
@@ -228,13 +246,12 @@
                         Samedi : 10h30 - 19h</p>
                 </div>
 
-
-
                 <article class="footer__socials">
                     <p class="footer__socials-title">Suivez-nous</p>
                     <i class="footer__icon fa-brands fa-facebook fa-lg"></i>
                     <i class="footer__icon fa-brands fa-instagram fa-lg"></i>
                 </article>
+
             </div>
 
             <article class="footer__legal">
@@ -245,8 +262,6 @@
         </footer>
 
     </main>
-
-
 
 </body>
 
